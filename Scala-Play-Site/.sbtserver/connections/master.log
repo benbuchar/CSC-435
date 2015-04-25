@@ -1,0 +1,48 @@
+New log file opened at Wed Apr 22 18:03:21 EDT 2015 by 9252@Ben-Laptop
+Taking next connection to: 60290
+New client attempting to connect on port: 60291-60290
+  Address = /129.3.218.246:60290
+This client on port 60291 has uuid 4dd8ea53-56f3-4979-816b-3100afb3130f configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-4dd8ea53-56f3-4979-816b-3100afb3130f
+Taking next connection to: 60290
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60290
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60290
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60290
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60290
+New client attempting to connect on port: 60525-60290
+  Address = /127.0.0.1:60290
+Handshake exception on socket: 60525
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 60290
+New client attempting to connect on port: 60526-60290
+  Address = /127.0.0.1:60290
+This client on port 60526 has uuid f44e1712-e934-494f-a286-e0a99d93e2e5 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-f44e1712-e934-494f-a286-e0a99d93e2e5
+Taking next connection to: 60290
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60290
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60290

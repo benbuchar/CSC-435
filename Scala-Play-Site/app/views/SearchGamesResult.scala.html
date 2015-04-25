@@ -1,0 +1,17 @@
+@(game: Game)
+
+@main("Welcome to Play") {
+        <p>Title: @{game.getTitle()}</p>
+        <p>Developer: @{game.getDeveloper()}</p>
+        <p>Year: @{game.getYear()}</p>
+    <form action="@routes.APITest2.testGet()" method="get">
+		<b>Choose a Search Option:</b><br>
+		<input type="radio" name="title" value=@{game.getTitleForIGN()}>IGN Rating<br>
+		<input type="submit" value = "Search">
+	</form>
+	<form action="@routes.APITest.testGet()" method="get">
+		<input type="radio" name="title" value=@{game.getTitle}>Latest Steam News Update<br>
+		<input type="submit" value="Search">
+    </form>
+
+}

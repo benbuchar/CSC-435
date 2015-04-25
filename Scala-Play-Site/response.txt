@@ -1,0 +1,41 @@
+{
+	"appnews": {
+		"appid": 440,
+		"newsitems": [
+			{
+				"gid": "517127039050888368",
+				"title": "There's a Team Fortress 2 auto-tune mod",
+				"url": "http://store.steampowered.com/news/externalpost/pcgamer/517127039050888368",
+				"is_external_url": true,
+				"author": "",
+				"contents": "Team Fortress 2 would probably work as a musical, but, unless Valve has something spectacular planned for the game's ninth year, we'll have&nbsp;to make do with this mod. Created by&nbsp;'Vincentor', it&nbsp;replaces every piece of dialogue in the game with exactly the same piece of dialogue, only a...",
+				"feedlabel": "PC Gamer",
+				"date": 1428421964,
+				"feedname": "pcgamer"
+			},
+			{
+				"gid": "517127039029976128",
+				"title": "Florida LAN's 2015 Highlander Tournament",
+				"url": "http://store.steampowered.com/news/externalpost/tf2_blog/517127039029976128",
+				"is_external_url": true,
+				"author": "",
+				"contents": "<a href=\"http://flan.tf/Info.html\" target=\"_blank\"> </a> <a href=\"http://www.twitch.tv/tf2flan\" target=\"_blank\">Florida LAN</a> is bringing Highlander to the competitive LAN scene this May 16th with the Highlander Tournament, hosted by <a href=\"http://www.apocgamingcenter.com\" target=\"_blank\">Apocalyptic Gaming Center</a> in Winter Park, Florida. Registration is still open <a href=\"http://flan.tf/Info.html\" target=\"_blank\">enter now</a> for a full day of fragging, raffles and cash prizes. ",
+				"feedlabel": "TF2 Blog",
+				"date": 1427922000,
+				"feedname": "tf2_blog"
+			},
+			{
+				"gid": "517126407364408116",
+				"title": "Team Fortress 2 Update Released",
+				"url": "http://store.steampowered.com/news/externalpost/tf2_blog/517126407364408116",
+				"is_external_url": true,
+				"author": "",
+				"contents": "An update to Team Fortress 2 has been released. The update will be applied automatically when you restart Team Fortress 2. The major changes include: * Fixed the Strange Dalokohs Bar not counting food eaten ;* Fixed a client crash related to the material system ;* Fixed a client crash related to the...",
+				"feedlabel": "TF2 Blog",
+				"date": 1427837280,
+				"feedname": "tf2_blog"
+			}
+		]
+		
+	}
+}

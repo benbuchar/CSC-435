@@ -1,0 +1,19 @@
+@(message: String)
+
+@main("Welcome to Play") {
+
+    <form action="@routes.AddGamesControl1.addGame()" method="post">
+            Title: <input type = "text" name = "title"><br>
+			Developer: <input type = "text" name = "developer"><br>
+			Year: <input type = "text" name = "year"><br>
+			<input type = "submit">
+    </form>
+    <br>
+    <br>
+    <a href="/search">Search For Games</a>
+    <br>
+    <br>
+    <a href="/REST">Access RESTful Exposure</a>
+
+
+}

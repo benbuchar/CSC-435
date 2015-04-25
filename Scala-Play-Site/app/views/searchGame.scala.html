@@ -1,0 +1,10 @@
+@(message: String)
+
+@main("Welcome to Play") {
+
+    <form action="@routes.SearchGamesControl2.getGames()" method="get">
+			Title Search: <input type = "text" name = "title"><br>
+			<input type = "submit">
+    </form>
+
+}
