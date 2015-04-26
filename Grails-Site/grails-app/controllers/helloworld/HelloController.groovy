@@ -1,9 +1,5 @@
 package helloworld
 
-import com.fasterxml.jackson.databind.JsonNode
-import com.fasterxml.jackson.databind.node.JsonNodeFactory
-import com.fasterxml.jackson.databind.node.ObjectNode
-
 class HelloController {
 
     def index() {
