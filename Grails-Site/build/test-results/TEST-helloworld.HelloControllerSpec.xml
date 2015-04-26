@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="helloworld.HelloControllerSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2015-04-19T23:14:37" hostname="Ben-Laptop" time="2.455">
+  <properties/>
+  <testcase name="test something" classname="helloworld.HelloControllerSpec" time="2.455">
+    <failure message="Condition not satisfied:&#10;&#10;true == false&#10;     |&#10;     false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+true == false
+     |
+     false
+
+	at helloworld.HelloControllerSpec.test something(HelloControllerSpec.groovy:20)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
