@@ -33,7 +33,7 @@ public class APITest2 extends Controller {
       String title = Form.form().bindFromRequest().get("title");
       title = title.replaceAll("[\\W]", "+");
       WSRequestHolder holder = WS.url("https://videogamesrating.p.mashape.com/get.php?count=5&game="+title);
-      WSRequestHolder complexHolder = holder.setHeader("X-Mashape-Key", "8SOqKF0W6fmshCxJFRKMZikYElTfp1MxFUKjsnKXmJtGjoz2Fp").setHeader("Accept", "application/json");
+      WSRequestHolder complexHolder = holder.setHeader("X-Mashape-Key", "/**KEY**/").setHeader("Accept", "application/json");
     return complexHolder.get().map(response ->
         //ok("IGN Score: " + response.asJson().findPath("score").asText())
         ok(IGNAPIresult.render("IGN Score: " + response.asJson().findPath("score").asText()))
