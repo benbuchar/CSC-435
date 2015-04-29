@@ -5,7 +5,7 @@
 		<title>Form</title>
 	</head>
 	<body>
-	<p><b>Enter A Game:</b></p>
+	<p><b>@[result]</b></p>
 	</br>
         <g:form controller="hello" action="save">
             <label>Title: </label>
