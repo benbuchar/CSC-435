@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app version="3.0"
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+ 
+   <!-- To save as "hello\WEB-INF\web.xml" -->
+ 
+   <servlet>
+      <servlet-name>HelloWorld</servlet-name>
+      <servlet-class>HelloServlet</servlet-class>
+   </servlet>
+   
+   <servlet>
+		<servlet-name>add</servlet-name>
+		<servlet-class>gamedb.AddGameControl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>search</servlet-name>
+		<servlet-class>gamedb.DevSearchControl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>expose</servlet-name>
+		<servlet-class>gamedb.ExposureControl</servlet-class>
+	</servlet>
+	
+ 
+   
+   <servlet-mapping>
+      <servlet-name>HelloWorld</servlet-name>
+      <url-pattern>/sayhello</url-pattern>
+   </servlet-mapping>
+   
+    <servlet-mapping>
+		<servlet-name>add</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+ 
+ 
+	<servlet-mapping>
+		<servlet-name>search</servlet-name>
+		<url-pattern>/search</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>expose</servlet-name>
+		<url-pattern>/expose</url-pattern>
+	</servlet-mapping>
+</web-app>
